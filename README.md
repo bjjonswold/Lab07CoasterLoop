@@ -13,21 +13,21 @@ As at many theme parks, the rollercoasters at Clappy’s Carnival of Fun have li
 
    Ex: 
    ```python
-   print("TESTING", lineManage(5)) # should return \[0, 1, 2, 3, 4, “now that’s a line!”] 
+   print("TESTING", lineManage(5)) # should return [0, 1, 2, 3, 4, “now that’s a line!”] 
 ```
 # Step 2: Line Management, the Sequel, Now With More Water! — lineSplash(customers)
 Jimmy’s Tower of Fun and Not Scares is a rollercoaster whose line passes under Splashy Splashington’s Splash-a-Palooza. Because of this, there is a chance that some of the guests will get splashed when they walk under it. For this function, find the function called `lineSplash(customers)`, use a for-loop to fill a list with numbers from 0-customers. If the number is divisible by 3, add “splashed!” to the list instead of the number. Return the list.
 
   Ex: 
   ```python
-  print("TESTING", lineSplash(5)) # should return \[“splashed”, 1, 2, “splashed!”, 4]
+  print("TESTING", lineSplash(5)) # should return [“splashed”, 1, 2, “splashed!”, 4]
 ```
 # Step 3: Connie the Carnival Animatronic’s Special Countdown! — connieCountdown(num)
 Connie the Carnival Animatronic is an animatronic in charge of some of the roller coaster rides and games. When in charge of rollercoasters, they do a special countdown. Connie picks a number and then counts down from that number to 1, and then says “Happy New Years!” For this function, find the function called `connieCountdown(num)`. Use a for-loop to make a list from num-1 and then add “Happy New Years!” to the end. Return this list.
 
   Ex: 
   ```python
-  print("TESTING", connieCountdown(10)) # should return \[10, 9, 8, 7, 6, 5, 4, 3, 2, 1, “Happy New Years!”]
+  print("TESTING", connieCountdown(10)) # should return [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, “Happy New Years!”]
 ```
 
 # Step 4: Connie the Carnival Animatronic’s Ring Toss Spectacular! ringToss(rolls, success)
@@ -36,15 +36,16 @@ The Ring Toss Spectacular is a rather interesting attraction at Clappy’s. To w
 
 ```python
   #Example of nested for-loop:
-	  for i in lst1:
-		  for j in lst2:
-			  print(i, j)
+  for i in lst1:
+    for j in lst2:
+	print(i, j)
 ```
   Ex: 
   ```python
-  print("TESTING", ringToss(\[10, 3, 5, 7, 20, 19], \[19, 3, 18, 12, 15, 1])) should print:
-  “Success for 3”
-  “Success for 19”
+  print("TESTING", ringToss([10, 3, 5, 7, 20, 19], [19, 3, 18, 12, 15, 1])) 
+  # should print:
+  # “Success for 3”
+  # “Success for 19”
 ```
 
 # Step 5: Happy Clappy’s Family Diner Birthday Dosido Spectacular! — dinerDance(start, numMoves)
@@ -59,7 +60,7 @@ Clappy’s Family Diner workers like to perform a special dance for customer bir
 
   Ex: 
   ```python
-  print("TESTING", dinerDance(50, 4)) should return \[“freestyle”, “spin”, “hop”, “spin”]
+  print("TESTING", dinerDance(50, 4)) # should return [“freestyle”, “spin”, “hop”, “spin”]
   ```
   
 # Step 6: Turn It In!
