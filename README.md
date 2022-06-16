@@ -11,10 +11,7 @@ Before getting started, take a look at the code for Step 0 and do your best to u
 # Step 1: Line Management — lineManage(customers)
 As at many theme parks, the rollercoasters at Clappy’s Carnival of Fun have lines. For this function, find the function called lineManage(customers). Use a for-loop to fill a list with numbers from 0 to (customers-1), then add “now that’s a line!” to the end. Return this list.
 
-   Ex: 
-   ```python
-   print("TESTING", lineManage(5)) # should return \[0, 1, 2, 3, 4, “now that’s a line!”] 
-   ```
+   Ex: print("TESTING", lineManage(5)) # should return \[0, 1, 2, 3, 4, “now that’s a line!”] 
 
 # Step 2: Line Management, the Sequel, Now With More Water! — lineSplash(customers)
 Jimmy’s Tower of Fun and Not Scares is a rollercoaster whose line passes under Splashy Splashington’s Splash-a-Palooza. Because of this, there is a chance that some of the guests will get splashed when they walk under it. For this function, find the function called lineSplash(customers), use a for-loop to fill a list with numbers from 0-customers. If the number is divisible by 3, add “splashed!” to the list instead of the number. Return the list.
