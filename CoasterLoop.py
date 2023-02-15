@@ -65,7 +65,7 @@ print("TESTING ringToss", ringToss([10, 3, 5, 7, 20, 19], [19, 3, 18, 12, 15, 1]
 def dinerDance(start, numMoves):
     dance = []
     #student code here
-    for i in range(numMoves):
+    for _ in range(numMoves):
         start = int((start * 2 + 4) / 3)
         if start % 3 == 0:
             dance.append("spin")
