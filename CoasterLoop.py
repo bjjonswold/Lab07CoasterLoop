@@ -28,7 +28,7 @@ def lineSplash(customers):
     #student code here
     for i in range(customers):
         if i == 0 or (i % 3 == 0):
-            lst.append("splashed")
+            lst.append("splashed!")
         else:
             lst.append(i)
     return lst
